@@ -1,7 +1,12 @@
 .place {
+
   display: grid;
   grid-template-columns: fit-content(460px) fit-content(484px);
   grid-template-rows: fit-content(152px) fit-content(460px);
   grid-column-gap: 40px;
   grid-row-gap: 48px;
+}
+
+.place:not(:last-child) {
+  padding-bottom: 80px;
 }

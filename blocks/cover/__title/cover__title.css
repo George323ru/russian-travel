@@ -1,10 +1,7 @@
 .cover__title {
-  align-self: start;
-  justify-self: center;
-
-  grid-column: 1/-1;
-  grid-row: 1/-1;
-  z-index: 1;
+  margin: 0;
+  max-width: 45%;
+  text-align: center;
 
   font-weight: 900;
   font-size: 72px;

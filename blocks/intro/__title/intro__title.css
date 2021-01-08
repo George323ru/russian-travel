@@ -1,5 +1,6 @@
 .intro__title {
-  width: 60%;
+  max-width: 67%;
+  margin: 0;
 
   font-weight: 900;
   font-size: 54px;

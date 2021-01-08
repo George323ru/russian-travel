@@ -1,5 +1,6 @@
 .cover {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 2fr;
+  max-width: 94%;
+  margin: 0 auto;
+
+
 }
