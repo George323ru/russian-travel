@@ -1,9 +1,17 @@
 .intro__text {
-  width: 67%;
+  max-width: 70%;
   margin: 0;
   padding-top: 40px;
 
   font-weight: normal;
   font-size: 1rem;
   line-height: 163%;
+}
+
+@media screen and (max-width: 768px) {
+
+  .intro__text {
+    max-width: 92%;
+  }
+
 }
