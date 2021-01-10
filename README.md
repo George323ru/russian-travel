@@ -9,4 +9,4 @@
     HTML;
     CSS3;
 
-* [Ссылка на мой проект](https://george323ru.github.io/russian-travel/)
+**[Ссылка на мой проект](https://george323ru.github.io/russian-travel/)**
