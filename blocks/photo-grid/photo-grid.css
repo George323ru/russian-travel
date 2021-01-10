@@ -1,10 +1,19 @@
 .photo-grid {
-  width: 93%;
+  width: calc(100% - 96px);
   margin: auto;
   padding-top: 92px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .photo-grid {
+    width: calc(100% - 48px);
+  }
+
 }
 
 @media screen and (max-width: 720px) {
@@ -15,3 +24,10 @@
 
 }
 
+@media screen and (max-width: 330px) {
+
+  .photo-grid {
+    width: calc(100% - 24px);
+  }
+
+}

@@ -9,8 +9,16 @@
 @media screen and (max-width: 768px) {
 
   .lead__caption {
-    width: 91%;
+    width: calc(100% - 48px);
     margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .lead__caption {
+    width: calc(100% - 24px);
   }
 
 }
