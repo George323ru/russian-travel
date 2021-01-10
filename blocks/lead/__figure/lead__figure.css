@@ -1,11 +1,25 @@
 .lead__figure {
-  max-width: 77%;
+  width: 77%;
   margin: auto;
   padding-top: 64px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__figure {
-    max-width: 928px;
+    width: 91%;
+    padding-top: 56px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__figure {
+    width: 100%;
+    padding-top: 64px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .lead__figure {
+    padding-top: 40px;
   }
 }

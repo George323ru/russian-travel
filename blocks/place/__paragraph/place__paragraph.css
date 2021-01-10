@@ -6,3 +6,13 @@
   font-size: 18px;
   line-height: 163%;
 }
+
+@media screen and (max-width: 627px) {
+
+  .place__paragraph {
+    max-width: 100%;
+    width: 93%;
+    margin: 0 auto;
+  }
+
+}

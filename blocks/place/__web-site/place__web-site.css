@@ -1,3 +1,15 @@
 .place__web-site {
   align-self: end;
+  max-width: 456px;
 }
+
+@media screen and (max-width: 627px) {
+
+  .place__web-site {
+    max-width: 100%;
+    width: 93%;
+    margin: 0 auto;
+  }
+
+}
+
