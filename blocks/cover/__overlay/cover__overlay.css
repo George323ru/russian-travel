@@ -1,6 +1,7 @@
 .cover__overlay {
   width: 100%;
   opacity: 0.3;
+  transition: .3s ease;
 }
 
 
