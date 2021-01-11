@@ -28,6 +28,7 @@
 
   .photo-grid {
     width: calc(100% - 24px);
+    gap: 12px;
   }
 
 }
