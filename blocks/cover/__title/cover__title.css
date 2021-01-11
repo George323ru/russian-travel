@@ -1,8 +1,8 @@
 .cover__title {
-  top: calc(50% - 126px);
-  position: absolute;
   margin: 0;
   max-width: 560px;
+
+  z-index: 1;
 
   font-family: Inter;
   font-weight: 900;
@@ -15,11 +15,9 @@
 @media screen and (max-width: 627px) {
 
   .cover__title {
-    top: calc(50% - 67px);
-    max-width: 255px;
+    max-width: 250px;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.094;
   }
 
 }
-
