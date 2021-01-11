@@ -3,8 +3,7 @@
   margin: 0 auto;
 
   color: white;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
