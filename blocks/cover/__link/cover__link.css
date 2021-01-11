@@ -1,0 +1,15 @@
+.cover__link {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr minmax(250px, 560px) 1fr;
+  grid-template-rows: 1fr minmax(min-content, max-content) minmax(min-content, max-content) 1fr;
+  /* grid-template-rows: 1fr minmax(95px, 179px) minmax(47px, 96px) 1fr; */
+
+  text-decoration: none;
+  color: white;
+}
+
+.cover__link:hover .cover__overlay {
+  background: #2A2C2F;
+  opacity: 0.8;
+}
