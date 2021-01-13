@@ -1,11 +1,7 @@
 .cover__subtitle {
   margin: 0;
   max-width: 360px;
-
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
-  align-self: center;
-  justify-self: center;
+  padding-top: 32px;
 
   z-index: 1;
 
@@ -20,6 +16,7 @@
 
   .cover__subtitle {
     max-width: 280px;
+    padding-top: 16px;
     font-size: 14px;
     line-height: 1.14;
   }
