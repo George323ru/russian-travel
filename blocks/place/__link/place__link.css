@@ -9,4 +9,9 @@
 
   text-decoration-line: underline;
   color: white;
+  transition: .3s ease;
+}
+
+.place__link:hover {
+  opacity: .8;
 }
