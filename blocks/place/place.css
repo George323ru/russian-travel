@@ -24,6 +24,10 @@
     grid-column-gap: 28px;
   }
 
+  .place:not(:last-child) {
+    padding-bottom: 73px;
+  }
+
 }
 
 @media screen and (max-width: 627px) {
