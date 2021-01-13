@@ -1,8 +1,7 @@
 .header {
   width: calc(100% - 96px);
-  /* max-width: 93%; */
   margin: auto;
-  padding-top: 20px;
+  padding-top: 28px;
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -19,6 +18,7 @@
 @media screen and (max-width: 320px) {
 
   .header {
+    padding-top: 16px;
     width: calc(100% - 24px);
   }
 
